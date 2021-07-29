@@ -12,6 +12,10 @@ body{
     background-attachment: fixed;
 }
 
+#contacto img{
+    width: 30%;
+}
+
 /* PAGINA PROYECTOS*/
 #proyectos{
     background-image: url("../images/fondo-proyectos.png");
@@ -314,7 +318,6 @@ footer .fa-github{
 
 #hobbies .card-hobbies{
     border-radius: 15px;
-    width: 100%;
 }
 
 #hobbies .card{
@@ -359,6 +362,7 @@ footer .fa-github{
     .div-cohete{
         height: 350px;
     }
+
 }
 
 

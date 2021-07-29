@@ -19,9 +19,10 @@
         <!-- Fixed navbar -->
         <nav class="navbar navbar-expand-md mb-4 mt-2">
             <div class="container">
-                <button class="navbar-toggler px-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="fas fa-bars p-1"></i>
+                <button class="navbar-toggler px-2" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i class="fas fa-bars p-1"></i>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse" style>
                     <ul class="navbar-nav me-auto mb-2 mb-md-0">
@@ -63,25 +64,34 @@
             <div class="row">
                 <div class="col-12 col-sm-6">
                     <p>Te invito a que te contactes enviándome un mensaje o bien por whatsapp.</p>
+                    <div class="col-12 pt-ms-5 pt-3">
+                        <p>Escaneá el código y escribime!</p>
+                        <img src="images/WhatsApp QR.jpeg" alt="QR" class="img-fluid ms-5">
+                    </div>
                 </div>
-                <div class="col-12 col-sm-6">
+
+                <div class="col-12 col-sm-6 pt-4 pt-sm-0 mb-5">
                     <form action="" method="POST"></form>
                     <div>
                         <input type="text" name="txtNombre" id="txtNombre" placeholder="Nombre"
-                            class="form-control py-1.5 mb-3 shadow"> <!-- class de bootstrap form-control --> <!-- shadow le da sombra al control contra el fondo -->
+                            class="form-control py-1.5 mb-3 shadow"> <!-- class de bootstrap form-control -->
+                        <!-- shadow le da sombra al control contra el fondo -->
                     </div>
                     <div>
                         <input type="email" name="txtCorreo" id="txtCorre" placeholder="Correo"
-                            class="form-control py-1.5 mb-3 shadow"> <!-- class de bootstrap form-control --> <!-- shadow le da sombra al control contra el fondo -->
+                            class="form-control py-1.5 mb-3 shadow"> <!-- class de bootstrap form-control -->
+                        <!-- shadow le da sombra al control contra el fondo -->
                     </div>
                     <div>
                         <input type="tel" name="txtTelefono" id="txtTelefono" placeholder="Teléfono/Whatsapp"
-                            class="form-control py-1.5 mb-3 shadow"> <!-- class de bootstrap form-control --> <!-- shadow le da sombra al control contra el fondo -->
+                            class="form-control py-1.5 mb-3 shadow"> <!-- class de bootstrap form-control -->
+                        <!-- shadow le da sombra al control contra el fondo -->
                     </div>
                     <div>
                         <textarea name=”txtMensaje” id=”txtMensaje” cols="30" rows="6"
                             placeholder="Escribe aquí tu mensaje" class="form-control py-1.5 mb-3 shadow"></textarea>
-                        <!-- class de bootstrap form-control --> <!-- shadow le da sombra al control contra el fondo -->
+                        <!-- class de bootstrap form-control -->
+                        <!-- shadow le da sombra al control contra el fondo -->
                     </div>
                     <div>
                         <button type="submit" name="btnEnviar" id="btnEnviar" class="btn px-4 shadow">ENVIAR</button>
@@ -114,4 +124,5 @@
     </div>
     <script src="css/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
