@@ -265,11 +265,11 @@ footer .fa-github{
     height: auto;
 }
 
-.baw{
+.gris{
     filter:grayscale(100%)
 }
 
-.baw:hover{
+.gris:hover{
     filter:grayscale(0%)
 }
 
