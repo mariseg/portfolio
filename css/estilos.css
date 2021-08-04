@@ -157,7 +157,7 @@ footer, footer a{
 }
 
 footer i{
-    color: white
+    color: white;
 }
 
 footer .fa-linkedin-in{
@@ -182,7 +182,7 @@ footer .fa-github{
 }
 
 #contacto footer{
-    margin-top:192px;
+    margin-top:300px;
 }
 
 .whatsapp a{
@@ -375,10 +375,12 @@ footer .fa-github{
     }
 
     #contacto footer{
+        position: relative;
         margin-top:90px;
     }
 
     #inicio footer{
+        position: relative;
         margin-top:98px;
     }
 
