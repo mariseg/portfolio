@@ -47,7 +47,7 @@
                                 <a class="nav-link" href="index.php">ES</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="en/index_en.php">EN</a>
+                                <a class="nav-link" href="en/index-en.php">EN</a>
                             </li>
                         </ul>
                     </form>
