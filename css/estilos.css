@@ -178,7 +178,7 @@ footer .fa-github{
 }
 
 #inicio footer{
-    margin-top:130px;
+    margin-top:235px;
 }
 
 #contacto footer{
@@ -383,6 +383,11 @@ footer .fa-github{
         position: relative;
         margin-top:98px;
     }
+
+    .img-fluid{
+        max-width: 60%;
+        height: auto;
+        margin:auto;
 
 }
 

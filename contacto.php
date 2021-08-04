@@ -44,10 +44,10 @@
                     <form class="d-flex ms-4">  <!-- parte de ES/EN -->
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link" href="contacto.html">ES</a>
+                                <a class="nav-link" href="contacto.php">ES</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="en/contact.html">EN</a>
+                                <a class="nav-link" href="en/contact.php">EN</a>
                             </li>
                         </ul>
                     </form>
@@ -102,7 +102,7 @@
         </div>
     </main>
     <footer class="footer container">
-        <div class="ms-5 mt-5 pb-4">
+        <div class="ms-sm-0 ms-5 mt-5 pb-4">
             <div class="row">
                 <div class="col-12 col-sm-3">
                     <a href="https://github.com" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>

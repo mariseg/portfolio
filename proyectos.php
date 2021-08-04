@@ -45,10 +45,10 @@
                     <form class="d-flex ms-4">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link" href="proyectos.html">ES</a>
+                                <a class="nav-link" href="proyectos.php">ES</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="en/projects.html">EN</a>
+                                <a class="nav-link" href="en/projects.php">EN</a>
                             </li>
                         </ul>
                     </form>

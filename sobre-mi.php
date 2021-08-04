@@ -45,10 +45,10 @@
                     <form class="d-flex ms-4">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link" href="proyectos.html">ES</a>
+                                <a class="nav-link" href="proyectos.php">ES</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="en/projects.html">EN</a>
+                                <a class="nav-link" href="en/projects.php">EN</a>
                             </li>
                         </ul>
                     </form>
@@ -64,7 +64,7 @@
                     <p class="mt-4">Siempre me gustó la programación pero no me dediqué a eso. Nunca es tarde para
                         empezar!
                     </p>
-                    <a href="contacto.html" class="btn btn-rojo mt-5">Descarga mi CV <i class="fas fa-download"></i></a>
+                    <a href="contacto.php" class="btn btn-rojo mt-5">Descarga mi CV <i class="fas fa-download"></i></a>
                 </div>
                 <div class="col-sm-3 col-12 offset-sm-2 mt-4">
                     <img src="images/maricel.png" alt="Maricel Segal" class="img-fluid img-circle">

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio</title>
+    <title>Home</title>
     <link href="css/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/fontawesome/css/fontawesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/fontawesome/css/all.min.css">
@@ -26,17 +26,17 @@
                 <div class="collapse navbar-collapse" id="navbarCollapse" style>
                     <ul class="navbar-nav me-auto mb-2 mb-md-0">
                         <li class="nav-item">
-                            <a class="nav-link  active px-4 pe-sm-4 py-1" href="index.php">Inicio</a>
+                            <a class="nav-link  active px-4 pe-sm-4 py-1" href="index.php">Home</a>
                             <!-- class="nav-link active" son 2 clases distintas 'nav-link' y 'active' -->
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link px-4 pe-sm-4 py-1" href="sobre-mi.php">Sobre mí</a>
+                            <a class="nav-link px-4 pe-sm-4 py-1" href="sobre-mi.php">About me</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link px-4 pe-sm-4 py-1" href="proyectos.php">Proyectos</a>
+                            <a class="nav-link px-4 pe-sm-4 py-1" href="proyectos.php">Projects</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link px-4 pe-sm-4 py-1" href="contacto.php">Contacto</a>
+                            <a class="nav-link px-4 pe-sm-4 py-1" href="contacto.php">Contact</a>
                             <!-- class="nav-link active" son 2 clases distintas 'nav-link' y 'active' -->
                             <!-- la clase active se le pone solo al link de contacto porque estamos en la pagina contactos, en las otras paginas se pondra los otros correspondientes-->
                         </li>
@@ -60,22 +60,21 @@
             <div class="row">
                 <div class="col-12 text-center mt-sm-1 pt-sm-4 div-cohete">  <!-- clase text-center a la caja del cohete para despues darle alineacion center en CSS-->
                     <div>
-                        <a href="proyectos.php"><img src="images/cohete.svg" alt="Proyectos" class="cohete"></a>
+                        <a href="project.php"><img src="images/cohete.svg" alt="Project" class="cohete"></a>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-12 col-sm-6 mt-sm-5 text-center offset-sm-3 mb-3">  <!-- clase text-center a la caja del mensaje para despues darle alineacion center en CSS-->
                     <div class="bienvenido">
-                        <p class="p-1 bienvenido">Bienvenid@ a mi sitio web sobre mis aprendizajes en programación.</p>
+                        <p class="p-1 bienvenido">Welcome to my website about my IT learnings</p>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-12 text-center">  <!-- clase text-center a la caja del boton para despues darle alineacion center en CSS-->
                     <div>
-                        <a href="proyectos.php"><button type="submit" name="btnEnviar" id="btnEnviar" class="btn px-3 shadow">Conoce mis
-                            proyectos</button></a>
+                        <a href="projects.php"><button type="submit" name="btnEnviar" id="btnEnviar" class="btn px-3 shadow">Take a look to my projects</button></a>
                     </div>
                 </div>
             </div>
