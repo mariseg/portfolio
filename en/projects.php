@@ -116,7 +116,7 @@
                     </div>
                     <div class="ps-2 pe-3 pt-3">
                         <p>Full Stack project performed in PHP, Laravel, Javascript, jQuery, AJAX, HTML, CSS,
-                            Mercadopago with admin panel, user manager, premissions module and
+                            Mercadopago with admin panel, user manager, permissions module and
                             related functionalities.</p>
                     </div>
                     <div class="col-6 my-5 ps-5">

@@ -26,7 +26,7 @@
                 <div class="collapse navbar-collapse" id="navbarCollapse" style>
                     <ul class="navbar-nav me-auto mb-2 mb-md-0">
                         <li class="nav-item">
-                            <a class="nav-link  active px-4 pe-sm-4 py-1" href="index-en.php">Home</a>
+                            <a class="nav-link active px-4 pe-sm-4 py-1" href="index-en.php">Home</a>
                             <!-- class="nav-link active" son 2 clases distintas 'nav-link' y 'active' -->
                         </li>
                         <li class="nav-item">
