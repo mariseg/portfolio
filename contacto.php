@@ -1,3 +1,7 @@
+<?php
+$page = "contacto";
+?>
+
 <!DOCTYPE html>
 <html lang="es">
 
@@ -15,46 +19,9 @@
 </head>
 
 <body id="contacto">
-    <header>
-        <!-- Fixed navbar de Bootstrap -->
-        <nav class="navbar navbar-expand-md mb-4 mt-2">  <!-- navbar-expand-md es la clase que define que el menu se colapse o expanda segun la pantalla -->
-            <div class="container">
-                <button class="navbar-toggler px-2" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
-                    aria-label="Toggle navigation">  
-                    <i class="fas fa-bars p-1"></i>     <!-- icono del menu -->
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse" style>  <!-- contenedor de las opciones del menu -->
-                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                        <li class="nav-item">
-                            <a class="nav-link px-4 pe-sm-4 py-1" href="index.php">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link px-4 pe-sm-4 py-1" href="sobre-mi.php">Sobre mí</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link px-4 pe-sm-4 py-1" href="proyectos.php">Proyectos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active px-4 pe-sm-4 py-1" href="contacto.php">Contacto</a>
-                            <!-- class="nav-link active" son 2 clases distintas 'nav-link' y 'active' -->
-                            <!-- la clase active se le pone solo al link de contacto porque estamos en la pagina contactos, en las otras paginas se pondra los otros correspondientes-->
-                        </li>
-                    </ul>
-                    <form class="d-flex ms-4">  <!-- parte de ES/EN -->
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link" href="contacto.php">ES</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="en/contact.php">EN</a>
-                            </li>
-                        </ul>
-                    </form>
-                </div>
-            </div>
-        </nav>
-    </header>
+
+<?php include_once("header.php");?>
+    
     <main class="container mx-sm-auto ms-3 mt-2">
         <div class="row">
             <div class="col-12 py-1 py-sm-3">
@@ -101,26 +68,8 @@
             </div>
         </div>
     </main>
-    <footer class="footer container">
-        <div class="ms-sm-0 ms-5 mt-5 pb-4">
-            <div class="row">
-                <div class="col-12 col-sm-3">
-                    <a href="https://github.com" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
-                    <a href="https://linkedin.com/in/maricel-segal-071113218/" target="_blank" title="Linkedin"><i
-                            class="fab fa-linkedin-in"></i></a>
-                </div>
-                <div class="col-12 col-sm-3">
-                    Sponsor <a href="https://depcsuite.com">DePc Suite</a>
-                </div>
-                <div class="col-12 col-sm-3">
-                    <a href="mailto:maricelsegal@gmail.com">maricelsegal@gmail.com</a>
-                </div>
-            </div>
-    </footer>
-    <div class="whatsapp">
-        <a href="https://api.whatsapp.com/send?phone=541156654836" target="_blank"
-            title="Enviar mensaje directo Whatsapp"><i class="fab fa-whatsapp"></i></a>
-    </div>
+    <?php include_once("footer.php");?>
+    
     <script src="css/bootstrap/js/bootstrap.bundle.min.js"></script>  <!-- script de bootstrap que maneja el colapso del menu -->
     <!-- Many of our components require the use of JavaScript to function. Specifically, they require our own JavaScript plugins and Popper. 
         Place one of the following <script>s near the end of your pages, right before the closing </body> tag, to enable them. 

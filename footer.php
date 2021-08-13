@@ -1,4 +1,4 @@
-<!-- contacto / index -->
+<!-- contacto / index
 <footer class="footer container">               
         <div class="ms-sm-0 ms-5 mt-5 pb-4">
             <div class="row">
@@ -19,14 +19,13 @@
         <a href="https://api.whatsapp.com/send?phone=541156654836" target="_blank"
             title="Enviar mensaje directo Whatsapp"><i class="fab fa-whatsapp"></i></a>
     </div>
+    -->
 
-
-    <!-- proyectos / sobre mi -->
-    <footer class="footer fixed-bottom ms-4 ms-sm-0 mb-4">
-        <div class="container">
+    <footer class="footer <?php echo ($page == "proyectos" || $page == "sobre-mi" || $page == "projects" || $page == "about-me")? "fixed-bottom ms-4 ms-sm-0 mb-4" : "container";?>">
+        <div class= "<?php echo ($page == "proyectos" || $page == "sobre-mi" || $page == "projects" || $page == "about-me")? "container" : "ms-sm-0 ms-5 mt-5 pb-4";?>">
             <div class="row">
                 <div class="col-12 col-sm-3">
-                    <a href="https://github.com" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://github.com/mariseg" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
                     <a href="https://linkedin.com/in/maricel-segal-071113218/" target="_blank" title="Linkedin"><i
                             class="fab fa-linkedin-in"></i></a>
                 </div>
