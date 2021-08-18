@@ -8,7 +8,7 @@ body{
 /* PAGINA CONTACTOS*/
 #contacto, #inicio{
     background-image: url("../images/fondo-contacto.png");
-    background-size:cover;
+    background-size: cover;                                 /* cover para que ocupe el total de la pantalla */
     background-attachment: fixed;
 }
 
@@ -228,7 +228,7 @@ footer .fa-github{
 }
 
 .div-cohete{
-    height: 410px;
+    height: 410px;    /* para que cuando el cohete se agranda no se mueva todo lo de abajo */
 }
 
 /* SOBRE MI */
@@ -354,7 +354,7 @@ footer .fa-github{
     font-size: 80px;
 }
 
-@media (max-width:500px){
+@media (max-width:576px){
     .cohete{
         width:200px;
     }
