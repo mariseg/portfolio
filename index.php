@@ -23,21 +23,21 @@ $page = "index";
     <main>
         <div class="container">
             <div class="row">
-                <div class="col-12 text-center mt-sm-1 pt-sm-4 div-cohete">  <!-- clase text-center a la caja del cohete para despues darle alineacion center en CSS-->
+                <div class="col-12 text-center mt-sm-1 pt-sm-4 div-cohete">  
                     <div>
                         <a href="proyectos.php"><img src="images/cohete.svg" alt="Proyectos" class="cohete"></a>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 col-sm-6 mt-sm-5 text-center offset-sm-3 mb-3">  <!-- clase text-center a la caja del mensaje para despues darle alineacion center en CSS-->
+                <div class="col-12 col-sm-6 mt-sm-5 text-center offset-sm-3 mb-3">
                     <div class="bienvenido">
-                        <p class="p-1 bienvenido">Bienvenid@ a mi sitio web sobre mis aprendizajes en programación.</p>
+                        <p class="p-1">Bienvenid@ a mi sitio web sobre mis aprendizajes en programación.</p>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 text-center">  <!-- clase text-center a la caja del boton para despues darle alineacion center en CSS-->
+                <div class="col-12 text-center">  
                     <div>
                         <a href="proyectos.php"><button type="submit" name="btnEnviar" id="btnEnviar" class="btn px-3 shadow">Conoce mis
                             proyectos</button></a>

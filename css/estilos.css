@@ -358,7 +358,7 @@ footer .fa-github{
 }
 
 
-@media (max-width:576px){
+@media (max-width:750px){
 
     #contacto, #inicio{
         background-size: 150%;                                 
@@ -384,15 +384,13 @@ footer .fa-github{
     }
 
     #contacto footer{
-        position: relative;
         margin-top:80px;
         padding-left: 20px;
         padding-bottom: 20px;
     }
 
     #inicio footer{
-        position: relative;
-        margin-top:130px;
+        margin-top:120px;
         padding-left: 20px;
         padding-bottom: 20px;
     }
