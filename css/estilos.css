@@ -8,8 +8,10 @@ body{
 /* PAGINA CONTACTOS*/
 #contacto, #inicio{
     background-image: url("../images/fondo-contacto.png");
-    background-size: cover;                                 /* cover para que ocupe el total de la pantalla */
+    background-size: 100%;                                 
     background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: bottom;
 }
 
 #contacto img{
@@ -74,7 +76,7 @@ body{
     font-weight: 100;
     font-size: 16px;
     margin-top: 100px;
-    position:static;
+    margin-bottom: 20px;
 }
 
 #proyectos footer i, #sobremi footer i{
@@ -149,7 +151,6 @@ nav .active{
     color: white;
 }
 
-
 footer, footer a{
     color: white;
     font-weight: 100;
@@ -176,6 +177,7 @@ footer .fa-linkedin-in{
 footer .fa-github{
     font-size: 30px;
 }
+
 
 #inicio footer{
     margin-top:235px;
@@ -215,7 +217,7 @@ footer .fa-github{
     font-weight: 600;
 }
 
-.bienvenido{
+.bienvenido div{
     box-sizing:border-box;
 }
 
@@ -260,10 +262,11 @@ footer .fa-github{
     border-radius: 50%;
 }
 
+/*
 .img-fluid{
     max-width: 100%;
     height: auto;
-}
+}*/
 
 .gris{
     filter:grayscale(100%)
@@ -354,8 +357,14 @@ footer .fa-github{
     font-size: 80px;
 }
 
+
 @media (max-width:576px){
-    .cohete{
+
+    #contacto, #inicio{
+        background-size: 150%;                                 
+    }
+
+       .cohete{
         width:200px;
     }
 
@@ -376,17 +385,21 @@ footer .fa-github{
 
     #contacto footer{
         position: relative;
-        margin-top:90px;
+        margin-top:80px;
+        padding-left: 20px;
+        padding-bottom: 20px;
     }
 
     #inicio footer{
         position: relative;
-        margin-top:98px;
+        margin-top:130px;
+        padding-left: 20px;
     }
 
     .img-fluid{
-        max-width: 60%;
-        height: auto;
-        margin:auto;
+        max-width: 60% !important;
+        height: auto !important;
+        margin:auto !important;
     }
 }
+
