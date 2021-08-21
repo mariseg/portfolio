@@ -22,7 +22,7 @@ $page = "sobre-mi";
 <?php include_once("header.php");?>
     <main>
         <div class="container">
-            <div class="row mb-4">
+            <div class="row mb-4 d-flex">
                 <div class="col-sm-5 col-12 mt-3">
                     <h1>Sobre mí</h1>
                     <p class="mt-4">Siempre me gustó la programación pero no me dediqué a eso. Nunca es tarde para
@@ -30,7 +30,7 @@ $page = "sobre-mi";
                     </p>
                     <a href="files/CV-Maricel Segal.pdf" class="btn btn-rojo mt-5" target="_blank">Descarga mi CV <i class="fas fa-download"></i></a>
                 </div>
-                <div class="col-sm-3 col-12 offset-sm-2 mt-4">
+                <div class="col-sm-7 col-12 mt-4">
                     <img src="images/maricel.png" alt="Maricel Segal" class="img-fluid img-circle">
                 </div>
             </div>
@@ -243,8 +243,8 @@ $page = "sobre-mi";
         <section id="hobbies">
             <div class="container">
                 <div class="row mx-0 py-5">
-                    <div class="col-sm-6 col-12 pb-3 pb-sm-0">
-                        <div class="row bg-white card-hobbies shadow me-sm-1">
+                    <div class="col-lg-6 col-12 pb-3 pb-lg-0">
+                        <div class="row bg-white card-hobbies shadow me-lg-1">
                             <div class="col-4 card text-center">
                                 <i class="fas fa-comment-alt"></i>
                             </div>
@@ -257,8 +257,8 @@ $page = "sobre-mi";
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-12">
-                        <div class="row bg-white card-hobbies shadow ms-sm-1">
+                    <div class="col-lg-6 col-12">
+                        <div class="row bg-white card-hobbies shadow ms-lg-1">
                             <div class="col-4 card text-center">
                                 <i class="fas fa-star"></i>
                             </div>

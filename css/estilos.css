@@ -176,15 +176,19 @@ footer .fa-linkedin-in{
 
 footer .fa-github{
     font-size: 30px;
+
 }
 
 
 #inicio footer{
     margin-top:235px;
+    padding-bottom: 20px;
+
 }
 
 #contacto footer{
     margin-top:300px;
+    padding-bottom: 20px;
 }
 
 .whatsapp a{
@@ -211,10 +215,11 @@ footer .fa-github{
 
 .bienvenido p{
     color:white;
-    border: 1px solid white;
-    border-radius: 20px !important;
     font-size: 17px;
     font-weight: 600;
+    border: 1px solid white;
+    border-radius: 20px !important;
+    width: max-content;
 }
 
 .bienvenido div{
@@ -262,11 +267,6 @@ footer .fa-github{
     border-radius: 50%;
 }
 
-/*
-.img-fluid{
-    max-width: 100%;
-    height: auto;
-}*/
 
 .gris{
     filter:grayscale(100%)
@@ -358,13 +358,9 @@ footer .fa-github{
 }
 
 
-@media (max-width:750px){
+@media (max-width:600px){
 
-    #contacto, #inicio{
-        background-size: 150%;                                 
-    }
-
-       .cohete{
+    .cohete{
         width:200px;
     }
 
@@ -374,9 +370,9 @@ footer .fa-github{
         border: 1px solid #ff4a49;
     }
 
-    .whatsapp a{
+    #inicio .whatsapp a, #contacto .whatsapp a{
         position: fixed;
-        right: 35px;
+        left: 35px;
     }
 
     .div-cohete{
@@ -386,19 +382,62 @@ footer .fa-github{
     #contacto footer{
         margin-top:80px;
         padding-left: 20px;
-        padding-bottom: 20px;
+        padding-bottom: 10px;
+        text-align: right;
     }
 
     #inicio footer{
         margin-top:120px;
         padding-left: 20px;
-        padding-bottom: 20px;
+        padding-bottom: 10px;
+        text-align: right;
     }
 
-    .img-fluid{
-        max-width: 60% !important;
-        height: auto !important;
-        margin:auto !important;
+
+}
+
+@media (min-width:576px) and (max-width:800px) {
+
+    #tecnologia h3{          /* nombres del stack tecnologico */
+        font-size: 12px;
+        font-weight: 200;
+        color:#282828;
+    }
+
+    .img-fluid {
+        width: 250px;
+    }
+
+  }
+
+@media (max-width:474px) {
+
+    #hobbies .col-8{
+        width:max-content;
+        padding: 40px 10px !important;
+    }
+
+    #hobbies .card{
+        width: 120px;
+    }
+
+    #hobbies .fas{              /* los logos de idiomas/hobbies */
+        font-size: 60px;
     }
 }
 
+@media (max-width:576px){
+    .img-fluid{
+        max-width: 60% !important;
+        height: auto !important;
+        margin: auto !important;
+    }
+}
+
+
+@media (min-width:800px) {
+    .img-fluid {
+        width: 300px;
+        margin-left:150px;
+    }
+}
