@@ -14,25 +14,25 @@ $page = "about-me";
     <link href="../css/fontawesome/css/fontawesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="../css/estilos.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
 </head>
 
 <body id="sobremi">
-<?php include_once("header-en.php");?>
+    <?php include_once("header-en.php"); ?>
     <main>
         <div class="container">
-            <div class="row mb-4">
+            <div class="row mb-4 d-flex">
                 <div class="col-sm-5 col-12 mt-3">
                     <h1>About me</h1>
                     <p class="mt-4">I always liked programming but i never studied for it . It is never too late!</p>
                     <a href="../files/CV-Maricel Segal.pdf" class="btn btn-rojo mt-5" target="_blank">Download my CV <i class="fas fa-download"></i></a>
                 </div>
-                <div class="col-sm-3 col-12 offset-sm-2 mt-4">
+                <div class="col-sm-7 col-12 mt-4">
                     <img src="../images/maricel.png" alt="Maricel Segal" class="img-fluid img-circle">
                 </div>
             </div>
         </div>
+        <!-- TECNOLOGIA -->
         <section id="tecnologia" class="color-gradiente">
             <div class="container pb-4">
                 <div class="row">
@@ -41,63 +41,86 @@ $page = "about-me";
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-sm-3 col-6 text-center">
-                        <div class="card px-4 py-5 mx-0 mb-4 mb-sm-0">
+                    <div class="col-lg-2 col-6 text-center">
+                        <div class="card px-4 py-5 mx-0 mb-4 mb-lg-0">
                             <h3>Python</h3>
-                            <img src="../images/Python.png" alt="Python" class="img-fluid d-block mx-auto" width="70px">
+                            <img src="../images/Python.png" alt="Python" class="img-fluid d-block mx-auto" width="60px">
                         </div>
                     </div>
-                    <div class="col-sm-3 col-6 text-center">
-                        <div class="card px-4 py-5 mx-0 mb-4 mb-sm-0">
+                    <div class="col-lg-2 col-6 text-center">
+                        <div class="card px-4 py-5 mx-0 mb-4 mb-lg-0">
                             <h3>Bootstrap</h3>
-                            <img src="../images/bootstrap-4-logo.png" alt="Python" class="img-fluid d-block mx-auto"
-                                width="70px">
+                            <img src="../images/bootstrap-4-logo.png" alt="Bootstrap" class="img-fluid d-block mx-auto" width="60px">
                         </div>
                     </div>
-                    <div class="col-sm-3 col-6 text-center">
-                        <div class="card px-4 py-5 mx-0 mb-4 mb-sm-0">
-                            <h3>HTML</h3>
-                            <img src="../images/HTML.png" alt="Python" class="img-fluid d-block mx-auto" width="70px">
+                    <div class="col-lg-2 col-6 text-center">
+                        <div class="card px-4 py-5 mx-0 mb-4 mb-lg-0">
+                            <h3>HTML5</h3>
+                            <img src="../images/HTML.png" alt="HTML5" class="img-fluid d-block mx-auto" width="60px">
                         </div>
                     </div>
-                    <div class="col-sm-3 col-6 text-center">
-                        <div class="card px-4 py-5 mx-0 mb-4 mb-sm-0">
+                    <div class="col-lg-2 col-6 text-center">
+                        <div class="card px-4 py-5 mx-0 mb-4 mb-lg-0">
                             <h3>Javascript</h3>
-                            <img src="../images/JavaScript-logo.png" alt="Python" class="img-fluid d-block mx-auto"
-                                width="70px">
+                            <img src="../images/JavaScript-logo.png" alt="Javascript" class="img-fluid d-block mx-auto" width="60px">
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-6 text-center">
+                        <div class="card px-4 py-5 mx-0 mb-4 mb-lg-0">
+                            <h3>JQuery</h3>
+                            <img src="../images/jquery.png.crdownload" alt="Jquery" class="img-fluid d-block mx-auto" width="60px">
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-6 text-center">
+                        <div class="card px-4 py-5 mx-0 mb-4 mb-lg-0">
+                            <h3>Apache</h3>
+                            <img src="../images/apache.png" alt="Apache" class="img-fluid d-block mx-auto" width="74px">
                         </div>
                     </div>
                 </div>
-                <div class="row my-sm-4">
-                    <div class="col-sm-3 col-6 text-center">
-                        <div class="card px-4 py-5 mx-0 mb-4 mb-sm-0">
+                <div class="row my-lg-4">
+                    <div class="col-lg-2 col-6 text-center">
+                        <div class="card px-4 py-5 mx-0 mb-4 mb-lg-0">
                             <h3>CSS</h3>
-                            <img src="../images/CSS-logo.PNG" alt="Python" class="img-fluid d-block mx-auto" width="70px">
+                            <img src="../images/CSS-logo.PNG" alt="CSS" class="img-fluid d-block mx-auto" width="60px">
                         </div>
                     </div>
-                    <div class="col-sm-3 col-6 text-center">
-                        <div class="card px-4 py-5 mx-0 mb-4 mb-sm-0">
+                    <div class="col-lg-2 col-6 text-center">
+                        <div class="card px-4 py-5 mx-0 mb-4 mb-lg-0">
                             <h3>Git</h3>
-                            <img src="../images/git-logo.png" alt="Python" class="img-fluid d-block mx-auto" width="70px">
+                            <img src="../images/git-logo.png" alt="Git" class="img-fluid d-block mx-auto" width="60px">
                         </div>
                     </div>
-                    <div class="col-sm-3 col-6 text-center">
-                        <div class="card px-4 py-5 mx-0 mb-4 mb-sm-0">
+                    <div class="col-lg-2 col-6 text-center">
+                        <div class="card px-4 py-5 mx-0 mb-4 mb-lg-0">
                             <h3>PHP</h3>
-                            <img src="../images/php-logo.png.crdownload" alt="Python" class="img-fluid d-block mx-auto"
-                                width="70px">
+                            <img src="../images/php-logo.png.crdownload" alt="PHP" class="img-fluid d-block mx-auto" width="60px">
                         </div>
                     </div>
-                    <div class="col-sm-3 col-6 text-center">
-                        <div class="card px-4 py-5 mx-0 mb-4 mb-sm-0">
+                    <div class="col-lg-2 col-6 text-center">
+                        <div class="card px-4 py-5 mx-0 mb-4 mb-lg-0">
                             <h3>React.js</h3>
-                            <img src="../images/react-1-logo-svg-vector.svg" alt="Python" class="img-fluid d-block mx-auto"
-                                width="70px">
+                            <img src="../images/react-1-logo-svg-vector.svg" alt="React.js" class="img-fluid d-block mx-auto" width="60px">
                         </div>
                     </div>
+                    <div class="col-lg-2 col-6 text-center">
+                        <div class="card px-4 py-5 mx-0 mb-4 mb-lg-0">
+                            <h3>Laravel</h3>
+                            <img src="../images/laravel-logo.png" alt="Laravel" class="img-fluid d-block mx-auto" width="60px">
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-6 text-center">
+                        <div class="card px-4 py-5 mx-0 mb-4 mb-lg-0">
+                            <h3>MySQL</h3>
+                            <img src="../images/mysql.png.crdownload" alt="MySQL" class="img-fluid d-block mx-auto" width="60px">
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </section>
+
+        <!-- EXPERIENCIA -->
         <section id="experiencia" class="container">
             <div class="row">
                 <div class="col-12 mt-5 mb-4">
@@ -127,9 +150,9 @@ $page = "about-me";
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-2 p-5 my-auto d-none d-sm-block">  <!-- d-none hace que en mobile no se muestre (d=display) d-sm-block se muestra a partir de tablet -->
-                                <img src="../images/estudio contable.jpg" alt="Estudio Contable" class="img-fluid gris"
-                                    width="100px">
+                            <div class="col-2 p-5 my-auto d-none d-sm-block">
+                                <!-- d-none hace que en mobile no se muestre (d=display) d-sm-block se muestra a partir de tablet -->
+                                <img src="../images/estudio contable.jpg" alt="Estudio Contable" class="img-fluid gris" width="100px">
                             </div>
                             <div class="col-10 p-3">
                                 <h3>Taxes and Financial statements</h3>
@@ -169,6 +192,7 @@ $page = "about-me";
                 </div>
             </div>
         </section>
+        <!-- FORMACION -->
         <section id="formacion" class="container">
             <div class="row">
                 <div class="col-12 mt-5 mb-4">
@@ -179,8 +203,7 @@ $page = "about-me";
                 <div class="col-12 col-sm-6">
                     <div class="row">
                         <div class="col-2 py-3 my-auto d-none d-sm-block">
-                            <img src="../images/uba.jpg" alt="Universidad de Buenos Aires" class="img-fluid gris"
-                                width="100px">
+                            <img src="../images/uba.jpg" alt="Universidad de Buenos Aires" class="img-fluid gris" width="100px">
                         </div>
                         <div class="col-12 col-sm-10 p-3">
                             <h3>Accountant</h3>
@@ -214,8 +237,7 @@ $page = "about-me";
                 <div class="col-12 col-sm-6">
                     <div class="row">
                         <div class="col-2 py-3 my-auto d-none d-sm-block">
-                            <img src="../images/logo-depcsuite.svg" alt="Programación Full stack" class="img-fluid gris"
-                                width="100px">
+                            <img src="../images/logo-depcsuite.svg" alt="Programación Full stack" class="img-fluid gris" width="100px">
                         </div>
                         <div class="col-12 col-sm-10 p-3">
                             <h3>Full Stack</h3>
@@ -238,11 +260,12 @@ $page = "about-me";
                 </div>
             </div>
         </section>
+        <!-- HOBBIES -->
         <section id="hobbies">
             <div class="container">
                 <div class="row mx-0 py-5">
-                    <div class="col-sm-6 col-12 pb-3 pb-sm-0">
-                        <div class="row bg-white card-hobbies shadow me-sm-1">
+                    <div class="col-lg-6 col-12 pb-3 pb-lg-0">
+                        <div class="row bg-white card-hobbies shadow me-lg-1">
                             <div class="col-4 card text-center">
                                 <i class="fas fa-comment-alt"></i>
                             </div>
@@ -255,8 +278,8 @@ $page = "about-me";
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-12">
-                        <div class="row bg-white card-hobbies shadow ms-sm-1">
+                    <div class="col-lg-6 col-12">
+                        <div class="row bg-white card-hobbies shadow ms-lg-1">
                             <div class="col-4 card text-center">
                                 <i class="fas fa-star"></i>
                             </div>
@@ -272,8 +295,9 @@ $page = "about-me";
                 </div>
             </div>
         </section>
+
     </main>
-    <?php include_once("../footer.php");?>
+    <?php include_once("../footer.php"); ?>
     <script src="../css/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 

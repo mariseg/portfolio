@@ -30,8 +30,8 @@ $page = "index-en";
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 col-sm-6 mt-sm-5 text-center offset-sm-3 mb-3">  <!-- clase text-center a la caja del mensaje para despues darle alineacion center en CSS-->
-                    <div class="bienvenido">
+                <div class="col-12 mt-sm-5 text-center mb-3">  <!-- clase text-center a la caja del mensaje para despues darle alineacion center en CSS-->
+                    <div class="bienvenido d-flex justify-content-center">
                         <p class="p-1 bienvenido">Welcome to my website about my IT learnings.</p>
                     </div>
                 </div>
