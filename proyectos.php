@@ -32,7 +32,7 @@ $page = "proyectos";
             </div>
         </div>
         <div class="row bloque">
-            <div class="col-12 col-sm-4">
+            <div class="col-12 col-lg-4">
                 <div class="row border m-1 bg-white">
                     <img src="images/abmclientes.png" alt="ABM Clientes" class="img-fluid">
                     <!-- img-fluid ajusta la imagen al tamaño del contenedor-->
@@ -52,7 +52,7 @@ $page = "proyectos";
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-sm-4">
+            <div class="col-12 col-lg-4">
                 <div class="row border m-1 bg-white">
                     <img src="images/abmventas.png" alt="ABM Ventas" class="img-fluid">
                     <!-- img-fluid ajusta la imagen al tamaño del contenedor-->
@@ -71,7 +71,7 @@ $page = "proyectos";
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-sm-4">
+            <div class="col-12 col-lg-4">
                 <div class="row border m-1 bg-white">
                     <img src="images/proyecto-integrador.png" alt="Proyecto integrador" class="img-fluid">
                     <!-- img-fluid ajusta la imagen al tamaño del contenedor-->

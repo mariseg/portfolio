@@ -43,60 +43,89 @@ $page = "sobre-mi";
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-sm-3 col-6 text-center">
-                        <div class="card px-4 py-5 mx-0 mb-4 mb-sm-0">
+                    <div class="col-lg-2 col-6 text-center">
+                        <div class="card px-4 py-5 mx-0 mb-4 mb-lg-0">
                             <h3>Python</h3>
-                            <img src="images/Python.png" alt="Python" class="img-fluid d-block mx-auto" width="70px">
+                            <img src="images/Python.png" alt="Python" class="img-fluid d-block mx-auto" width="60px">
                         </div>
                     </div>
-                    <div class="col-sm-3 col-6 text-center">
-                        <div class="card px-4 py-5 mx-0 mb-4 mb-sm-0">
+                    <div class="col-lg-2 col-6 text-center">
+                        <div class="card px-4 py-5 mx-0 mb-4 mb-lg-0">
                             <h3>Bootstrap</h3>
-                            <img src="images/bootstrap-4-logo.png" alt="Python" class="img-fluid d-block mx-auto"
-                                width="70px">
+                            <img src="images/bootstrap-4-logo.png" alt="Bootstrap" class="img-fluid d-block mx-auto"
+                                width="60px">
                         </div>
                     </div>
-                    <div class="col-sm-3 col-6 text-center">
-                        <div class="card px-4 py-5 mx-0 mb-4 mb-sm-0">
-                            <h3>HTML</h3>
-                            <img src="images/HTML.png" alt="Python" class="img-fluid d-block mx-auto" width="70px">
+                    <div class="col-lg-2 col-6 text-center">
+                        <div class="card px-4 py-5 mx-0 mb-4 mb-lg-0">
+                            <h3>HTML5</h3>
+                            <img src="images/HTML.png" alt="HTML5" class="img-fluid d-block mx-auto" width="60px">
                         </div>
                     </div>
-                    <div class="col-sm-3 col-6 text-center">
-                        <div class="card px-4 py-5 mx-0 mb-4 mb-sm-0">
+                    <div class="col-lg-2 col-6 text-center">
+                        <div class="card px-4 py-5 mx-0 mb-4 mb-lg-0">
                             <h3>Javascript</h3>
-                            <img src="images/JavaScript-logo.png" alt="Python" class="img-fluid d-block mx-auto"
-                                width="70px">
+                            <img src="images/JavaScript-logo.png" alt="Javascript" class="img-fluid d-block mx-auto"
+                                width="60px">
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-6 text-center">
+                        <div class="card px-4 py-5 mx-0 mb-4 mb-lg-0">
+                            <h3>JQuery</h3>
+                            <img src="images/jquery.png.crdownload" alt="Jquery" class="img-fluid d-block mx-auto"
+                                width="60px">
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-6 text-center">
+                        <div class="card px-4 py-5 mx-0 mb-4 mb-lg-0">
+                            <h3>Apache</h3>
+                            <img src="images/apache.png" alt="Apache" class="img-fluid d-block mx-auto"
+                                width="74px">
                         </div>
                     </div>
                 </div>
-                <div class="row my-sm-4">
-                    <div class="col-sm-3 col-6 text-center">
-                        <div class="card px-4 py-5 mx-0 mb-4 mb-sm-0">
+                <div class="row my-lg-4">
+                    <div class="col-lg-2 col-6 text-center">
+                        <div class="card px-4 py-5 mx-0 mb-4 mb-lg-0">
                             <h3>CSS</h3>
-                            <img src="images/CSS-logo.PNG" alt="Python" class="img-fluid d-block mx-auto" width="70px">
+                            <img src="images/CSS-logo.PNG" alt="CSS" class="img-fluid d-block mx-auto" width="60px">
                         </div>
                     </div>
-                    <div class="col-sm-3 col-6 text-center">
-                        <div class="card px-4 py-5 mx-0 mb-4 mb-sm-0">
+                    <div class="col-lg-2 col-6 text-center">
+                        <div class="card px-4 py-5 mx-0 mb-4 mb-lg-0">
                             <h3>Git</h3>
-                            <img src="images/git-logo.png" alt="Python" class="img-fluid d-block mx-auto" width="70px">
+                            <img src="images/git-logo.png" alt="Git" class="img-fluid d-block mx-auto" width="60px">
                         </div>
                     </div>
-                    <div class="col-sm-3 col-6 text-center">
-                        <div class="card px-4 py-5 mx-0 mb-4 mb-sm-0">
+                    <div class="col-lg-2 col-6 text-center">
+                        <div class="card px-4 py-5 mx-0 mb-4 mb-lg-0">
                             <h3>PHP</h3>
-                            <img src="images/php-logo.png.crdownload" alt="Python" class="img-fluid d-block mx-auto"
-                                width="70px">
+                            <img src="images/php-logo.png.crdownload" alt="PHP" class="img-fluid d-block mx-auto"
+                                width="60px">
                         </div>
                     </div>
-                    <div class="col-sm-3 col-6 text-center">
-                        <div class="card px-4 py-5 mx-0 mb-4 mb-sm-0">
+                    <div class="col-lg-2 col-6 text-center">
+                        <div class="card px-4 py-5 mx-0 mb-4 mb-lg-0">
                             <h3>React.js</h3>
-                            <img src="images/react-1-logo-svg-vector.svg" alt="Python" class="img-fluid d-block mx-auto"
-                                width="70px">
+                            <img src="images/react-1-logo-svg-vector.svg" alt="React.js" class="img-fluid d-block mx-auto"
+                                width="60px">
                         </div>
                     </div>
+                    <div class="col-lg-2 col-6 text-center">
+                        <div class="card px-4 py-5 mx-0 mb-4 mb-lg-0">
+                            <h3>Laravel</h3>
+                            <img src="images/laravel-logo.png" alt="Laravel" class="img-fluid d-block mx-auto"
+                                width="60px">
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-6 text-center">
+                        <div class="card px-4 py-5 mx-0 mb-4 mb-lg-0">
+                            <h3>MySQL</h3>
+                            <img src="images/mysql.png.crdownload" alt="MySQL" class="img-fluid d-block mx-auto"
+                                width="60px">
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
         </section>
