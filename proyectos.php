@@ -32,7 +32,7 @@ $page = "proyectos";
             </div>
         </div>
         <div class="row bloque">
-            <div class="col-12 col-lg-4">
+            <div class="col-12 col-xl-4 col-md-6">
                 <div class="row border m-1 bg-white">
                     <img src="images/abmclientes.png" alt="ABM Clientes" class="img-fluid">
                     <!-- img-fluid ajusta la imagen al tamaño del contenedor-->
@@ -47,12 +47,12 @@ $page = "proyectos";
                     <div class="col-6 my-5 ps-5">
                         <a href="" class="btn btn-rojo">Ver Online</a>
                     </div>
-                    <div class="col-6 my-5 pe-5 pt-1 link-rojo text-center">
+                    <div class="col-6 my-5 ps-2 pe-5 pt-1 link-rojo text-center">
                         <a href="http://github.com" target="_blank">Código fuente</a>
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-lg-4">
+            <div class="col-12 col-xl-4 col-md-6">
                 <div class="row border m-1 bg-white">
                     <img src="images/abmventas.png" alt="ABM Ventas" class="img-fluid">
                     <!-- img-fluid ajusta la imagen al tamaño del contenedor-->
@@ -71,7 +71,7 @@ $page = "proyectos";
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-lg-4">
+            <div class="col-12 col-xl-4 col-md-6">
                 <div class="row border m-1 bg-white">
                     <img src="images/proyecto-integrador.png" alt="Proyecto integrador" class="img-fluid">
                     <!-- img-fluid ajusta la imagen al tamaño del contenedor-->
