@@ -6,7 +6,7 @@ body{
 }
 
 /* PAGINA CONTACTOS*/
-#contacto, #inicio{
+#contacto, #inicio, #confirmacion{
     background-image: url("../images/fondo-contacto.png");
     background-size: 100%;                                 
     background-attachment: fixed;
@@ -14,7 +14,7 @@ body{
     background-position: bottom;
 }
 
-#contacto img{
+#contacto img, #confirmacion img{
     width: 30%;
 }
 
@@ -186,8 +186,13 @@ footer .fa-github{
 
 }
 
-#contacto footer{
+#contacto footer, #confirmacion footer{
     margin-top:300px;
+    padding-bottom: 20px;
+}
+
+#confirmacion footer{
+    margin-top:680px;
     padding-bottom: 20px;
 }
 
@@ -380,7 +385,7 @@ footer .fa-github{
         height: 350px;
     }
 
-    #contacto footer{
+    #contacto footer, footer, #confirmacion footer{
         margin-top:80px;
         padding-left: 20px;
         padding-bottom: 10px;

@@ -1,5 +1,34 @@
 <?php
 $page = "contact";
+
+include_once("../PHPMailer/src/PHPMailer.php");
+include_once("../PHPMailer/src/SMTP.php");
+if ($_POST){
+    $nombre = $_REQUEST['txtNombre'];
+    $correo = $_REQUEST['txtCorreo'];
+    $telefono = $_REQUEST['txtTelefono'];
+    $mensaje = $_REQUEST['txtMensaje'];
+
+    // Para enviar un correo HTML, debe establecerse la cabecera Content-type
+    $cabeceras  = 'MIME-Version: 1.0' . "\r\n";
+    $cabeceras .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+
+    // Cabeceras adicionales
+    $cabeceras .= 'To: maricelsegal@gmail.com' . "\r\n";
+    $cabeceras .= 'From: Admin <info@maricelsegal.com.ar>' . "\r\n";
+
+    $para = "maricelsegal@gmail.com";
+    $asunto = "Se contactaron desde tu sitio web";
+    $mensaje = "
+    Nombre: $nombre<br>
+    Correo: $correo<br>
+    Tel&eacute;fono: $telefono<br>
+    Mensaje: 
+    $mensaje";
+    // Enviarlo
+    /*mail($para, $título, $mensaje, $cabeceras); */
+    header("Location: submit-confirmation.php");
+}
 ?>
 
 <!DOCTYPE html>
@@ -35,7 +64,7 @@ $page = "contact";
                 </div>
 
                 <div class="col-12 col-sm-6 pt-4 pt-sm-0 mb-5">
-                    <form action="" method="POST"></form>
+                    <form action="" method="POST">
                     <div>
                         <input type="text" name="txtNombre" id="txtNombre" placeholder="Name"
                             class="form-control py-1.5 mb-3 shadow"> <!-- class de bootstrap form-control -->
